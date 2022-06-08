@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+body {
+    background-image: url(https://na-dache.pro/uploads/posts/2021-11/1636444587_26-na-dache-pro-p-krasivaya-stena-foto-26.jpg);
+    background-size: cover;
+    min-width: 325px;
+    overflow-x: hidden;
+    height: auto;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin: 0 10px;
+}
+
+.navbar-menu li a:hover{
+  color: aqua;
+  transition: all 0.7s ease-in-out;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.LoogIn {
+  margin-top: 13px;
+  margin-left: 20px;
+  padding: 7px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: px;
+  background-color:  rgb(253, 135, 0) ;
+  border-radius: 10px;
+}
+
+.LoogIn:hover{
+  background-color: black;
+  color: orange;
+  transition: 0.6s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: 700px ;
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 100px
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 166, 0);
+  transition: 0.7s ease-in-out;
+}
+
+.space-px707 {
+  width: 550px;
+}
+
+.information {
+  background-color: rgb(255, 166, 0);
+  margin: 0 200px;
+  box-shadow: 0 4px 10px rgb(255, 166, 0);
+}
+
+.information h1 {
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.information p{
+  font-size: 20px;
+  margin: 0 20px;
+  text-indent: 35px;
+}
+
+address {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: right;
+  color: aliceblue;
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.addres a {
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  display: block;
+  display: flex;
+  justify-content: right;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  
+  }
+
+    .addres p {
+      display: flex;
+      justify-content: left;
+      flex-basis: 50%;
+      box-sizing: border-box;
+      flex-direction: row;
+      flex-wrap:wrap;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1.5px;
+    background-color: #000;
+    margin: 20px 0px;
+    box-shadow: 0 4px 10px  0.7;
+    }
+    
