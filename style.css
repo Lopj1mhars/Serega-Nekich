@@ -119,6 +119,7 @@ address {
   color: aliceblue;
   flex-basis: 50%;
   box-sizing: border-box;
+  margin-right: 10px;
 }
 
 .address a {
@@ -129,7 +130,7 @@ address {
   justify-content: right;
   flex-basis: 50%;
   box-sizing: border-box;
-
+  margin-right: 10px;
 }
 
 .address p {
@@ -139,6 +140,7 @@ address {
   box-sizing: border-box;
   flex-direction: row;
   flex-wrap: wrap;
+  color: white;
 }
 
 .divider {
@@ -152,3 +154,9 @@ address {
 .address--one-line {
   justify-content: space-between;
 }
+
+.address--one-line a {
+  color: white;
+  margin-right: 10px;
+}
+
