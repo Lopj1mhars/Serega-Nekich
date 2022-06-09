@@ -1,4 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200&display=swap');
+
 body {
-  background-image: url(https://instapik.ru/wp-content/uploads/2020/08/dark-background.jpg);
+  background-image: url(https://img3.akspic.ru/crops/5/5/7/1/1/111755/111755-tkan-chernyy-etazh-liniya-angle-2560x1440.jpg);
+  
   background-size: cover;
+  min-width: 325px;
+  overflow-x: hidden;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* BASIC CLASSES */
+.flex {
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(68, 68, 68, 0.5);
+  border-radius: 3px;
+  backdrop-filter: blur(3px);
+}
+
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar-menu li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar-menu li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin: 0 10px;
+}
+
+.navbar-menu li a:hover {
+  color: rgb(0, 0, 0);
+  transition: all 0.7s ease-in-out;
+}
+
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.LoogIn {
+  margin-top: 13px;
+  margin-left: 20px;
+  padding: 7px;
+  font-size: 25px;
+  color: orange;
+  text-decoration: none;
+  margin-right: px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.LoogIn:hover {
+  background-color: orange;
+  color: rgb(8, 8, 8);
+  transition: 0.6s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: 700px;
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(255, 250, 250);
+  margin-left: 100px
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 166, 0);
+  transition: 0.7s ease-in-out;
+  background-color: black;
+}
+
+.space-px707 {
+  width: 550px;
+}
+
+.services {
+  background-color: rgb(68, 68, 68, 0.5);
+  margin: 0 200px;
+  box-shadow: 0 4px 10px rgb(0, 0, 0);
+  backdrop-filter: blur(3px);
+  font-weight: bold;
+  color: white;
+}
+
+.services h1 {
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.services p {
+  font-size: 20px;
+  margin: 0 20px;
+  text-indent: 35px;
+}
+
+address {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: right;
+  color: rgb(250, 172, 3);
+  flex-basis: 50%;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.address a {
+  color: rgb(255, 153, 0);
+  margin-top: 15px;
+  display: block;
+  display: flex;
+  justify-content: right;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.address p {
+  display: flex;
+  justify-content: left;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(255, 196, 0);
+}
+
+.divider {
+  width: 100%;
+  height: 1.5px;
+  background-color: rgb(70, 68, 68);
+  margin: 20px 0px;
+  box-shadow: 0 4px 10px 0.7;
+}
+
+.address--one-line {
+  justify-content: space-between;
+}
+
+.address--one-line a {
+  color: rgb(255, 145, 0);
+  margin-right: 10px;
 }
