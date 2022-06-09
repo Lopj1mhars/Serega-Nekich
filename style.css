@@ -23,6 +23,12 @@ body {
   backdrop-filter: blur(3px);
 }
 
+.navbar:hover {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
 .navbar .container {
   height: inherit;
   display: flex;
@@ -90,6 +96,7 @@ body {
 .navbar-brand:hover {
   color: rgb(255, 166, 0);
   transition: 0.7s ease-in-out;
+  background-color: black;
 }
 
 .space-px707 {
